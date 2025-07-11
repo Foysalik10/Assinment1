@@ -57,13 +57,14 @@ nav{
 }
 /*Action styles*/
 .action-title{
-    font-size: 45px bold;
+    font-size: 45px ;
+    font-weight: bold;
 
 }
 .action{
-    display: flex;
+    display:flex;
 
-    padding: 50px 80px;
+    padding: 20px 10px;
     align-items: center;
     justify-content: center;
     
@@ -82,7 +83,7 @@ nav{
 
     
 }
-/*main styles*/
+
 
 
 
@@ -189,8 +190,15 @@ footer input[type="text"],textarea{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 100px;
+    gap: 10px;
 
 }
 .closing-description{
     text-align: center;
+}
+.closing-title,.closing-description{
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
 }
