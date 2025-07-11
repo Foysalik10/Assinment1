@@ -84,23 +84,64 @@ nav{
     
 }
 /*main styles*/
-main{ 
-    max-width: 1140px;
 
+main{
+    max-width: 1180px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
+
 /*users section*/
 .users-numbers{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    padding: 40px 20px;
 }
 .join-section{
     justify-content: center;
 }
  .bg-colour{
-    background-color: #5d5997;
+    background-color: #726f93;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
 
 
     }
+    .join-section-title{
+        text-align: center;
+        font-size: 50px bold;
+        padding-top: 10px;
+        
 
-
+    }
+    .exact-number{
+        font-size: 45px;
+        font-family: none;
+    }
+    .number-title{
+        font: 400px;
+        padding: 0;
+        gap: 0;
+    }
+    .join-section{
+        align-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .review-container{
+        display: flex;
+        justify-content: space-around;
+        gap: 24px;
+        padding: 20px;
+        box-shadow: #252432;
+    }
+.section-title{
+            
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 50px;
+    
+        }
