@@ -39,7 +39,10 @@ nav{
     padding-bottom: 60px;
 
     
-
+*{
+    margin: 0;
+    padding: 0;
+}
 }
 .banner-heading{
     font-size: 110px bold;
@@ -85,12 +88,8 @@ nav{
 }
 /*main styles*/
 
-main{
-    max-width: 1180px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+
+
 
 /*users section*/
 .users-numbers{
@@ -119,6 +118,7 @@ main{
     .exact-number{
         font-size: 45px;
         font-family: none;
+        color: #4E47FF;
     }
     .number-title{
         font: 400px;
@@ -145,3 +145,56 @@ main{
             padding-left: 50px;
     
         }
+/* footer styles */
+
+
+.footer-column{
+    width: 50%;
+
+    
+}
+.footer-all{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 90px;
+  background-color: #f5f8ff;
+  gap: 100px;
+  border: 25px;
+}
+footer input[type="text"],textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 10px;
+    width: 60%;
+    margin: 40px;
+.lebel-font{
+    font-size: medium;
+}
+.input-class,.level-font{
+    gap: 0;
+}
+}
+.footer-section-title{
+    font-size: 97px;
+    font-style: bold;
+
+}
+.closing-title{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: #4E47FF;
+
+}
+.closing-elements{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.closing-description{
+    text-align: center;
+}
